@@ -1,0 +1,42 @@
+.banner {
+  mask-image: linear-gradient(to right, transparent, #000 75%);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 75%);
+}
+
+.content {
+  padding-left: 6%;
+
+  .title {
+    @apply mb-[30px];
+  }
+  p {
+    @apply mb-[20px];
+  }
+
+  .btns {
+    @apply mb-[50px];
+
+    .btn {
+      padding: 8px 20px;
+    }
+  }
+}
+
+.movieSection {
+  @apply pl-[6%];
+}
+
+@media (max-width: 800px) {
+  .hero {
+    height: 100vh;
+  }
+  .hero .banner {
+    height: 100%;
+  }
+  .hero p {
+    @apply text-[12px] max-w-[95%];
+  }
+  .hero .content .title {
+    @apply w-[320px];
+  }
+}
