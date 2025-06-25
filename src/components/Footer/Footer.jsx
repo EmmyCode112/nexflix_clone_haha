@@ -42,7 +42,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <p className="text-sm text-gray-400">
+      <p className="text-sm text-gray-400 max-sm:text-center">
         &copy; {year} MyPortfolio. Crafted with 🤍 by EmmyCode.
       </p>
     </footer>
