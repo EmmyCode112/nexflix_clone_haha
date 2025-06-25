@@ -1,8 +1,8 @@
 import React from "react";
 import "./Hero.css";
 import Hero_banner from "@/assets/hero_banner.jpg";
-import Hero_title from "@/assets/Hero_title.png";
-import play from "@/assets/Play_icon.png";
+import Hero_title from "@/assets/hero_title.png";
+import play from "@/assets/play_icon.png";
 import info from "@/assets/info_icon.png";
 import { Button } from "@/components/Button";
 import Cards from "../Cards/Cards";

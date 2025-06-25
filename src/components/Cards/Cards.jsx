@@ -1,6 +1,6 @@
 import React from "react";
 import "./Cards.css";
-import cards_data from "@/assets/cards/Cards_data"; // cards_data is imported but not used in this snippet
+// import cards_data from "@/assets/cards/Cards_data";
 import { useNavigate } from "react-router-dom"; // Importing useNavigate for navigation
 const Cards = ({ title, category }) => {
   // You had this section commented out, which means you're relying on browser's native overflow scrolling
